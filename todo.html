@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8"><title>To-Do</title></head>
+<body>
+  <h2>My To-Do List</h2>
+  <input id="task"><button onclick="add()">Add</button>
+  <ul id="list"></ul>
+
+<script>
+function add(){
+  const t=document.getElementById("task").value;
+  if(!t) return;
+  const li=document.createElement("li");
+  li.innerHTML=t+" <button onclick='this.parentElement.remove()'>❌</button>";
+  document.getElementById("list").appendChild(li);
+  localStorage.setItem("todos",document.getElementById("list").innerHTML);
+}
+window.onload=()=>{ document.getElementById("list").innerHTML=localStorage.getItem("todos")||""; }
+</script>
+</body>
+</html>

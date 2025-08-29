@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8"><title>Chat Sim</title></head>
+<body>
+  <h2>Chat Box</h2>
+  <div id="box" style="border:1px solid #000;height:200px;overflow:auto;padding:5px"></div>
+  <input id="msg"><button onclick="send()">Send</button>
+
+<script>
+function send(){
+  const msg=document.getElementById("msg").value;
+  if(!msg) return;
+  document.getElementById("box").innerHTML+="<div>You: "+msg+"</div>";
+  setTimeout(()=>{ document.getElementById("box").innerHTML+="<div>Bot: "+msg.split("").reverse().join("")+"</div>"; },1000);
+  document.getElementById("msg").value="";
+}
+</script>
+</body>
+</html>
