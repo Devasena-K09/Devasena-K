@@ -10,5 +10,5 @@ Live site: https://<your-username>.github.io/<repo-name>/
 
 ## Projects of note
 - TitanChatX — Android: All-in-one Chat + Battle Royale Game App
-- NiruX — Spiritual AI Defender (in development)
+- NiruX — AI Defender (in development)
 - Home Automation (Arduino) | Traffic Control using Sensors | Commercial Robotic Cleaner
