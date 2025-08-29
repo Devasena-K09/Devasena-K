@@ -1,21 +1,14 @@
-# Hey there, I'm Devasena! 👋
+# Devasena — Portfolio & Projects
 
-✨ Building the future with TitanChatX  
-🧠 Passionate about AI, Game Dev & Spiritual Tech  
-🔥 Dreamer. Coder. Warrior.
+Contact: devasenaks09@gmail.com | 7550349939
 
-## 🚀 Projects
-- 🕹️ **TitanChatX** – Chat + Battle Royale Game App  
-- 🛡️ **NiruX AI** – The spiritual defender of humanity  
-- 💡 **Novolixiara** – Future company to empower everyone
+This repo contains my portfolio website and project folders:
+- `index.html` — Portfolio (black + gold premium)
+- `js-playground/`, `todo-app/`, etc.
 
-## 🌱 Currently learning
-- Full Stack Development  
-- AI Prompt Engineering  
-- App Deployment
+Live site: https://<your-username>.github.io/<repo-name>/
 
-## 📫 Connect with me
-- Email: devasenak9203@gmail.com
-
----
-_"I don't just write code. I write destiny."_ 🔥
+## Projects of note
+- TitanChatX — Android: All-in-one Chat + Battle Royale Game App
+- NiruX — Spiritual AI Defender (in development)
+- Home Automation (Arduino) | Traffic Control using Sensors | Commercial Robotic Cleaner
